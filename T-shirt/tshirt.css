@@ -1,0 +1,146 @@
+.topM{
+    margin: 0;
+    padding: 0;
+    margin-right: 80px;
+}
+
+.topM > li {
+    list-style-type: none;
+    float: right;
+    border: 1px solid black;
+    margin-left: 5px;
+    color: white;
+    background-color: gray;
+}
+#topA {
+    display: block;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.leftM{
+    
+    background-color: #FFDAB9;
+    width: 200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.leftM > li a {
+    display: block;
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.leftM > li a:hover {
+    background-color: #CD853F;
+    color: white;
+}
+.menu li a {
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    padding: 0 20px;
+    font-size: 17px;
+    color: #555;
+}
+
+.menu li a:hover {
+    background-color: yellowgreen; color: white;
+}
+
+.shirt {
+    border: 1px solid black; 
+    width: 250px; 
+    height: 280px; 
+    margin-top: 20px;
+    float:left
+}
+
+.t-shirt {
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.money {
+    color: red;
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+}
+body {
+    font-family: "Noto Sans KR", sans-serif 
+    
+  }
+  
+  a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  section > div {
+    display: inline-block;
+    background-color: white;
+    padding: 0 30px;
+    border-radius: 7px;
+    margin-top: 30px;
+  }
+  
+  section > div > nav {
+    display: inline-block;
+  }
+  
+  section > div > nav > a {
+    display: block;
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+  }
+  
+  section > div > nav > a:hover {
+    background-color: #fdf3f3;
+    color: black;
+    cursor : pointer;
+    font-style: bold;
+    text-decoration: underline;
+  }
+
+  input:-ms-input-placeholder {color:#a8a8a8}
+  input::-webkit-input-placeholder{color: a8a8a8;} 
+  input :-moz-placeholder{color: a8a8a8;}
+
+  #rigthMenu {
+      height: 40px;
+      width: 400px;
+      border: 1px solid #1b5ac2;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+  }
+
+  input {
+      
+      font-size: 16px;
+      width: 325px;
+      padding: 10px;
+      border: 0px;
+      outline: none;
+      float: left;
+  }
+
+  button {
+      width: 50px;
+      height: 100%;
+      border: 0px;
+      background-color: #1b5ac2;
+      outline: none;
+      float: right;
+      color: #ffffff;
+  }
